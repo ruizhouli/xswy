@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作业</title>
+    <link rel="shortcut icon" href="http://www.zhufengpeixun.cn/files/system/2016/02-02/124619b1ad4a134241.png?6.16.3"
+        type="image/x-icon">
+    <style type="text/css">
+        body {
+            background-color: #F4F4F4;
+
+        }
+
+        hr {
+            border: 1px #ECECEC dashed;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .article {
+            width: 50%;
+            margin: 20px 90px 0 20px;
+            float: left;
+            line-height: 2em;
+
+        }
+
+        .article p {
+            text-indent: 2em;
+        }
+
+        .col {
+            color: orange;
+        }
+
+        .tit {
+            text-align: center;
+        }
+
+        h5 {
+            color: green;
+        }
+
+        .pic1 {
+            width: 380px;
+            height: 370px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .pic2 {
+            width: 375px;
+            height: 198px;
+            float: right;
+        }
+
+        .pic3 {
+            width: 188px;
+            height: 124.688px;
+            float: left;
+        }
+
+        .pic3 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .txt {
+            width: 187px;
+            height: 106;
+            float: left;
+            margin-left: 20px;
+        }
+
+        .part {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            /* list-style-image:url(day03\tubiao.png); */
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-family: SimSun, Arial, "Arial Narrow", HELVETICA;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        /* .main {
+            float: left;
+        } */
+        .part1 {
+            margin-top: 40px;
+            overflow: hidden;
+        }
+
+        .rim {
+            margin: 30px auto;
+            width: 992px;
+            overflow: hidden;
+
+        }
+
+        .demo {
+            width: 234px;
+            height: 260px;
+            margin: 0 0 14px 14px;
+            padding: 20px 0 20px 0;
+            background-color: white;
+            text-align: center;
+            float: left;
+        }
+
+        /* .demo:hover{
+            border:0.5px solid red;
+          
+        }
+
+        .demo {    
+            border:1px solid transparent;
+        } */
+
+        .demo h3 {
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+
+        }
+
+        .demo .desc {
+            color: #b0b0b0;
+            font-size: 12px;
+            margin: 10px 0 20px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+        }
+
+        .demo .pic4 img {
+            width: 140px;
+            height: 140px;
+        }
+
+        .price {
+            font-size: 14px;
+
+        }
+
+        .demo .price span {
+            color: orange;
+        }
+
+        del {
+            color: #b0b0b0;
+        }
+
+        .demo .pic5 {
+            width: 234px;
+            height: 300px;
+        }
+
+        .demo1 {
+            width: 234px;
+            height: 300px;
+            /* margin: 0 0 14px 14px;
+            padding: 20px 0 20px 0;
+            background-color: white;
+            text-align: center; */
+            float: left;
+        }
+
+        .demo2 {
+            width: 234px;
+            height: 260px;
+            margin: 0 0 14px 14px;
+            padding: 0 0 20px 0;
+            background-color: #F4F4F4;
+            text-align: center;
+            float: left;
+        }
+
+        .demo2 .ascender {
+            width: 234px;
+            height: 143px;
+            margin: 0 0 14px 0;
+            background-color: white;
+            overflow: hidden;
+
+        }
+
+        .demo2 .tippet {
+            width: 234px;
+            height: 143px;
+            background-color: white;
+        }
+
+        .demo2 .ascender .desc1 .brick-item h3 {
+            width: 94px;
+            height: 42px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            /* float: left; */
+        }
+
+
+        .pic6 {
+            width: 80px;
+            height: 80px;
+            margin-left: 20px;
+            float: left;
+        }
+
+        .pic6 img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .price1 {
+            width: 94px;
+            height: 21px;
+            color: orange;
+            font-size: 12px;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .desc1 {
+            width: 94px;
+            height: 65px;
+            float: left;
+
+        }
+
+        .ms {
+            margin: 30px 0 0 20px;
+        }
+
+        .hot {
+            width: 94px;
+            height: 45px;
+            font-size: 18px;
+            font-family: Helvetica Neue", Helvetica, Arial, "Microsoft;
+            line-height: 1em;
+            text-align: left;
+            float: left;
+        }
+
+        .rm {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-top: 10px;
+        }
+
+        .pic7 {
+            width: 50px;
+            height: 50px;
+            margin-left: 10px;
+            float: left;
+
+        }
+
+        .glance {
+            width: 154px;
+            height: 50px;
+            overflow: hidden;
+            margin: 0 auto;
+            padding-top: 55px
+        }
+
+        .main {
+            line-height: 2em;
+        }
+        .nav ul img {
+            float: left;
+            margin:10px 5px 0 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part1">
+        <div class="article">
+            <div class="tit">
+                <h3>珠峰成长的秘密：兴盛衰败一挥间，长留慈悲在心念</h1>
+                    <h4 class="col">兴也勃焉、亡也忽焉，岂能不诚惶诚恐</h4>
+                    <h4 class="col">创业即难、守业更难，怎敢不竭尽全力</h4>
+            </div>
+            <hr>
+            <h5>珠峰培训的价值观、我们的使命是什么？</h5>
+            <p>“珠峰”走到今天，我最引以为豪的就是：我们没有招生部门，但每年招收的学生人数倍增；我们没有就业部门，但超过百分之二、三十的学生入职BAT等一流公司。我们在创造一个叫“珠峰模式”的奇迹。珠峰培训能够走到今天，靠的是让学生升华，最终实现自己的成功。
+            </p>
+            <div class="pic1">
+                <img src="./2.jpg" alt="">
+                <div>
+                    <i>珠峰培训是中国前端开发知名品牌，七年前端培训，以专注立身；70%的同学来自老学员推荐，以诚信立业。我们专注的特色培训有：javascript培训,node.js培训,前端开发培训,html5培训,移动端培训</i>
+                </div>
+            </div>
+
+            <p>2012年，有一位学员在学习结束后找到了一份不错的工作，她跟我说：“我原来没有看书的习惯，现在睡前都习惯看会《JavaScript高级程序设计》了。”我认为这就是”珠峰”的成功：不仅传授了技术，还让她养成了一个积极向上的好习惯。我们有超过80%的同学都是来自于老同学的推荐。为什么老同学会这么热心的推荐他们的亲朋好友来“珠峰”学习？就是因为他们相信：“珠峰”能够改变他们，“珠峰”是一个积极向上、充满正能量的地方！
+            </p>
+            <p class="col">通过某种技术学习，引导人、激励人、提高人、改变人，这是我们的使命。</p>
+
+            <p>这种使命，不仅仅是对学生的，更是对自己的。这七年来，我自己正是通过对JS的学习，从以前的散慢、迷茫，逐渐定下心来，培养了心性和善于学习、思考的习惯，从而达到了提高自我、改变自我的目标。凡是结缘“珠峰”的人，不管是学生、还是老师，我们都有一个共同的目标，那就是：互相提高、互相升华，通过提高或改变别人从而升华自己。
+            </p>
+            <div class="pic2">
+                <img src="./3.jpg" alt="">
+            </div>
+            <p>最终的谈话还是有收获的，他告诉我：这些话要是上周三去班上跟大家讲讲就好了，周一大家上课第一天，还满怀对新知识新环境的憧憬、好奇和希望，学习两天后有些人就会被难住了，这时候及时的心理疏导最有效。其实A模块的CSS哪有什么难度，都是难在了没有学习的习惯和状态上了。
+            </p>
+            <p class="col">在这里我引“同仁堂”创业祖先的一句话：修合无人见，存心有天知</p>
+            <p>其实这也告诉我们，我们的工作还可以做的更细致。比如在开课前就把学生情况疏理出来，先有针对性的，根据学历、社会经验、原来的工作情况，做一个预判，提前做工作。比如说让他们认识到自己的现状和改行学一门新技术的难度，让他们表一下学习的决心等等。
+            </p>
+            <p class="col">我们要时刻记着：“通过一门技术的学习，帮助学生树立信心信念，培养良好习惯和积极心态，达到引导人、激励人、提高人、改变人的目标.。”这是我们的价值观。</p>
+        </div>
+        <div class="main">
+            <div class="part">
+                <div class="pic3">
+                    <a href=""><img src="https://inews.gtimg.com/newsapp_ls/0/10125513973_196130/0" alt=""></a>
+                </div>
+                <div class="txt">
+                    <p>香港团体在政府总部外请愿：立法禁止蒙面示威 要让暴徒无处遁形</p>
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A018FI00.html" target="_blank"
+                            newsexpo="yw20_1">张艺兴因撑港警被人肉 妈妈发文挺儿子：我不怕</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/FIN20190/FIN2019082800570700.html" target="_blank"
+                            newsexpo="yw21_1">胡润：中国28城进入全球房价涨幅最高前50</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A018FI00.html" target="_blank"
+                            newsexpo="yw20_1">张艺兴因撑港警被人肉 妈妈发文挺儿子：我不怕</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/FIN20190/FIN2019082800570700.html" target="_blank"
+                            newsexpo="yw21_1">胡润：中国28城进入全球房价涨幅最高前50</a></li>
+
+                </ul>
+            </div>
+            <div class="part">
+                <div class="pic3">
+                    <a href=""><img src="https://inews.gtimg.com/newsapp_ls/0/10123611148_640330/0" alt=""></a>
+                </div>
+                <div class="txt">
+                    <p>香港团体在政府总部外请愿：立法禁止蒙面示威 要让暴徒无处遁形</p>
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A018FI00.html" target="_blank"
+                            newsexpo="yw20_1">张艺兴因撑港警被人肉 妈妈发文挺儿子：我不怕</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/FIN20190/FIN2019082800570700.html" target="_blank"
+                            newsexpo="yw21_1">胡润：中国28城进入全球房价涨幅最高前50</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A018FI00.html" target="_blank"
+                            newsexpo="yw20_1">张艺兴因撑港警被人肉 妈妈发文挺儿子：我不怕</a></li>
+                    <li><a class="" href="https://new.qq.com/omn/FIN20190/FIN2019082800570700.html" target="_blank"
+                            newsexpo="yw21_1">胡润：中国28城进入全球房价涨幅最高前50</a></li>
+
+                </ul>
+            </div>
+            <div class="part">
+                <div class="pic3">
+                    <a href=""><img src="https://inews.gtimg.com/newsapp_ls/0/10123080156_640330/0" alt=""></a>
+                </div>
+                <div class="txt">
+                    <p>香港团体在政府总部外请愿：立法禁止蒙面示威 要让暴徒无处遁形</p>
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A018FI00.html" target="_blank"
+                            newsexpo="yw20_1">张艺兴因撑港警被人肉 妈妈发文挺儿子：我不怕</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/FIN20190/FIN2019082800570700.html" target="_blank"
+                            newsexpo="yw21_1">胡润：中国28城进入全球房价涨幅最高前50</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/TWF20190/TWF2019082800276600.html" target="_blank"
+                            newsexpo="yw17_1">媒体调查云南女干部拒绝提拔事件：上班简直像在“打仗”</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A00EZV00.html" target="_blank"
+                            newsexpo="yw18_1">这名副省长成了“深夜虎”：刚做完个人检视剖析就被秒杀</a></li>
+                    <img src="./tubiao.png" alt="" >
+                    <li><a class="" href="https://new.qq.com/omn/20190828/20190828A03MAI00.html" target="_blank"
+                            newsexpo="yw19_1">大陆香港电影退出后，今年金马奖连赞助商也跑的差不多了</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div>
+            <hr />
+        </div>
+        <div class="rim">
+            <div class="demo1">
+                <div class="pic5">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/99f1f43d9df484572bd81138f45dfc0f.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+                        alt="">
+                </div>
+                <!-- <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p> -->
+
+            </div>
+            <div class="demo">
+                <div class="pic4">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+                        alt="">
+                </div>
+                <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p>
+
+            </div>
+            <div class="demo">
+                <div class="pic4">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+                        alt="">
+                </div>
+                <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p>
+
+            </div>
+            <div class="demo">
+                <div class="pic4">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+                        alt="">
+                </div>
+                <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p>
+
+            </div>
+            <div class="demo1">
+                <div class="pic5">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e0b8cffcbdaa88e2a314f0a372ca75dd.jpg?thumb=1&w=234&h=300&f=webp&q=90"
+                        alt="">
+                </div>
+                <!-- <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p> -->
+
+            </div>
+            <div class="demo">
+                <div class="pic4">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+                        alt="">
+                </div>
+                <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p>
+
+            </div>
+            <div class="demo">
+                <div class="pic4">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg?thumb=1&w=200&h=200&f=webp&q=90"
+                        alt="">
+                </div>
+                <h3>米家飞行员太阳镜 Pro</h3>
+                <div class="desc">
+                    尼龙偏光，轻巧佩戴
+                </div>
+                <p class="price">
+                    <span>189元</span>
+                    <del>199元</del>
+                </p>
+
+            </div>
+            <div class="demo2">
+                <div class="ascender">
+                    <div class="ms">
+                        <div class="desc1">
+                            <div class="brick-item">
+                                <h3>8H 乳胶弹簧静音床垫 M3</h3>
+                            </div>
+
+                            <div class="price1">
+                                <span>1599元起</span>
+                            </div>
+                        </div>
+                        <div class="pic6">
+                            <img src="https://i8.mifile.cn/v1/a1/eaa7c8e5-2a8c-0d2c-6de7-a6db2068b192!100x100.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tippet">
+                    <div class="glance">
+                        <div class="hot">
+                            <p>
+                                浏览更多
+                            </p>
+                            <p class="rm">热门</p>
+                        </div>
+                        <div class="pic7">
+                            <img src="./1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

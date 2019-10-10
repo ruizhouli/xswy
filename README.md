@@ -1,2 +1,0 @@
-# xswy
-onePage
